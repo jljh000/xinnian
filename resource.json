@@ -1,0 +1,71 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "https://b.520diy.vip/165",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "https://b.520diy.vip/data/img/bg/2020-12-2322.jpg",
+                    "path": "images/2020-12-2322.jpeg"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/music_note_big.png",
+                    "path": "images/music_note_big.png"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/jquery-2.0.3.min.js",
+                    "path": "js/jquery-2.0.3.min.js"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/typed.min.js",
+                    "path": "js/typed.min.js"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/support_upload_as.js",
+                    "path": "js/support_upload_as.js"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/start_intersect.js",
+                    "path": "js/start_intersect.js"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/jweixin-1.6.0.js",
+                    "path": "js/jweixin-1.6.0.js"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/theme_common.js",
+                    "path": "js/theme_common.js"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/theme_public_btn.css",
+                    "path": "css/theme_public_btn.css"
+                },
+                {
+                    "url": "https://b.520diy.vip/biaobai_chunjie/1_files/start_intersect.css",
+                    "path": "css/start_intersect.css",
+                    "children": [
+                        {
+                            "url": "https://b.520diy.vip/biaobai_chunjie/images/open_letter.jpg",
+                            "path": "images/open_letter.jpg"
+                        }
+                    ]
+                },
+                {
+                    "url": "https://b.520diy.vip/165?php%20echo%20$con61?%3E",
+                    "path": "165.html",
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
